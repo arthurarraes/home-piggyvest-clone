@@ -411,3 +411,266 @@ button{
 .a16 img{
     margin-right: 1%;
 }
+
+@media only screen and (min-width:320px) and (max-width: 1000px){
+
+    header{
+        display: none;
+        visibility: hidden;
+    }
+.container-1{
+    display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center; 
+}
+    .container-1 .texto{
+        display: block;
+        align-items:center;
+        text-align:center;
+        justify-content: center;
+        width: 100%; 
+        padding: 0;
+    }
+    .container-1 .texto .entrar{
+        display: block;
+        align-items:center;
+        text-align:center;
+        justify-content: center;
+        margin-left: 32%;
+        margin-top: 5px;
+    }
+    .container-1 .texto .criar1{
+        display: block;
+        align-items:center;
+        text-align:center;
+        justify-content: center;
+        margin-left: 35%;
+    }
+    .container-1 .imagem{
+        display: none;
+        visibility: hidden;
+    }
+    .container-2{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center; 
+    }
+    .container-2 .a1{
+        display: block;
+        align-items:center;
+        text-align:center;
+        justify-content: center;
+        width: 100%;
+    }
+    .container-2 .a1 h2{
+        margin-left: 0;
+    }
+    
+    .container-2 .a2{
+        display:block;
+        align-items: center;
+        justify-content: center; 
+        font-size: 0.6rem;
+        padding: 1%;
+        width: 100%;
+        height: 36%;
+        font-size: 0.6rem;
+        background-color: rgb(248, 247, 247);
+        border-radius: 25px;
+        margin-top: 160px;
+    }
+    .container-2 .a3{
+        display:block;
+        align-items: center;
+        justify-content: center; 
+        font-size: 0.6rem;
+        padding: 1%;
+        margin-top: 20px;
+        width: 100%;
+        height: 36%;
+        font-size: 0.6rem;
+        background-color: rgb(248, 247, 247);
+        border-radius: 25px;
+        
+    }
+    .container-2 .a4{
+        display:block; 
+    align-items: center;
+    justify-content: center;
+    font-size: 0.6rem;
+    right: 0%;
+    transform: translateX(0%);
+    padding: 1%;
+
+    margin: 5px;
+    width: 100%;
+    height: 36%;
+    background-color: rgb(248, 247, 247);
+    border-radius: 25px;
+        
+    }
+    .container-2 .a5{
+        display:block; 
+        align-items: center;
+        justify-content: center;
+        font-size: 0.6rem;
+        right: 0%;
+        transform: translateX(0%);
+        padding: 1%;
+        margin: 5px;
+        width: 100%;
+        height: 36%;
+        background-color: rgb(248, 247, 247);
+        border-radius: 25px;
+    }
+    .container-3{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center; 
+    }
+    .container-3 .a6{
+        padding: 1%;
+        width: 100%;
+        margin-top: 800px;
+        margin-left: 0px;
+    }
+    .container-3 .a7{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;  
+        padding: 2%;
+        width: 100%;
+        padding-top: 10%;
+        font-size: 0.7rem;
+    }
+    .container-3 .a7 .b1{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;  
+    }
+    .container-3 .a7 h1{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center; 
+    }
+    .container-3 .a7 h2{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center; 
+        text-align: justify;
+    }
+
+    .container-4{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center; 
+        width: 100%;
+        position: absolute;
+        padding-top: 10px;
+        height: 95%;
+    }
+    .container-4 .a8{
+        margin-top: 760px;
+        width: 60%;
+    }
+    .container-4 .a8 h1{
+        font-size: 1.3rem;
+        transform: translateX(0%);
+        margin-left: 5px;
+    }
+    .container-4 .a8 h2{
+        font-size: 0.9rem;
+    }
+    .container-4 .a9{
+        margin-top: 760px;
+        width: 40%;
+    }
+
+    .a10{
+        bottom: -500%;
+        font-size: 0.7rem;
+    }
+
+    .a10 button{
+        display: block;
+        align-items:center;
+        text-align:center;
+        justify-content: center;
+        margin-left: 32%;
+        margin-top: 5px;
+    }
+
+    .a11{
+        bottom: -500%;
+        height: 30%;
+    }
+
+    .container-5{
+        bottom: -580%
+    }
+    .container-5 .a12{
+        display: block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        box-sizing: border-box;
+        top: 100%;
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+        padding-top: 15%;
+    }
+    .container-5 .a13{
+        box-sizing: border-box;
+        display: block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        top: 100%;
+        width: 50%;
+        height: 40%;
+        margin-top: 5px;
+        font-size: 0.6rem;
+    }
+    .container-5 .a14{
+        box-sizing: border-box;
+        display: block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 50%;
+        height: 40%;
+        margin-top: 5px;
+        font-size: 0.6rem;
+    }
+    .container-5 .a15{
+        box-sizing: border-box;
+        display: block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 50%;
+        height: 40%;
+        margin-top: 5px;
+        font-size: 0.6rem;
+    }
+    .container-5 .a16{
+        box-sizing: border-box;
+        display: block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 50%;
+        height: 40%;
+        margin-top: 5px;
+        font-size: 0.6rem;
+    }
+}
