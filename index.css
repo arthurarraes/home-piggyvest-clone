@@ -575,12 +575,13 @@ button{
         width: 100%;
         position: absolute;
         padding-top: 10px;
-        height: 95%;
+        height: 100%;
     }
     .container-4 .a8{
         margin-top: 760px;
         width: 100%;
         bottom: -440%;
+        height: 100%;
     }
     .container-4 .a8 h1{
         font-size: 1.3rem;
@@ -592,7 +593,12 @@ button{
     }
     .container-4 .a9{
         bottom: -440%;
-        width: 100%;
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;  
     }
 
     .a10{
