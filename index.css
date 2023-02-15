@@ -579,7 +579,8 @@ button{
     }
     .container-4 .a8{
         margin-top: 760px;
-        width: 60%;
+        width: 100%;
+        bottom: -440%;
     }
     .container-4 .a8 h1{
         font-size: 1.3rem;
@@ -590,12 +591,12 @@ button{
         font-size: 0.9rem;
     }
     .container-4 .a9{
-        margin-top: 760px;
-        width: 40%;
+        bottom: -440%;
+        width: 100%;
     }
 
     .a10{
-        bottom: -500%;
+        bottom: -560%;
         font-size: 0.7rem;
     }
     .a10 h1{
@@ -612,12 +613,12 @@ button{
     }
 
     .a11{
-        bottom: -510%;
+        bottom: -550%;
         height: 30%;
     }
 
     .container-5{
-        bottom: -590%
+        bottom: -630%
     }
     .container-5 .a12{
         display: block;
